@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#FirstPart {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mynav {
+    /* display: block; */
+    position: relative;
+    background-size: cover;
+}
+
+
+.fpartofnav {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#theestate {
+    transform: translateY(-71px) scale(1.2);
+}
+
+#estatepic {
+    width: 200px;
+}
+
+.firstul {
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    transform: translateX(-100px);
+    width: 500px;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#contactnumber {
+    background-color: orange;
+    height: 30;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100px)translateX(-50px);
+}
+
+.whitetextstyle {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fyh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 490%;
+    transform: translateY(50%);
+}
+.WholePage{
+    position: absolute;
+}
+.FirstDiv{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/ghk010123homeminifeature-005-6414864bc1ef0.png?crop=1.00xw:0.392xh;0,0.306xh&resize=1200:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85%;
+}
+.SecondDiv{
+   color: aqua;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.cardiocons{
+    font-size:36px;
+}
+.cardicons i{
+    background-color: darkviolet;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    background-color: rgb(228, 228, 228);
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+#cardpic{
+    width: 270px;
+}
+.cardinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardtags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardtags p {
+    background-color: orange;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+.cardprice{
+    background-color: rgba(11, 3, 32, 0.308);
+}
+.colortextstyle{
+    color: rgb(13, 13, 73);
+}
+.ThirdDiv{
+    background-image: url(https://i.pinimg.com/564x/a7/20/65/a720659514091b687e1ccfe98c48b303.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+.ThirdDiv h1{
+    transform: translateY(100px);
+}
+.ThirdDiv h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-260px) translateY(-200px);
+}
+
